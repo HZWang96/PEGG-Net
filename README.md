@@ -1,5 +1,13 @@
 # PEGG-Net
-This is the official code repository for "PEGG-Net: Pixel-Wise Efficient Grasp Generation in Complex Scenes".
+This repository contains the official implementation of PEGG-Net from the paper:
+
+**PEGG-Net: Background Agnostic Pixel-Wise Efficient Grasp Generation Under Closed-Loop Conditions**
+
+Haozhe Wang, Zhiyang Liu, Lei Zhou, Huan Yin and Marcelo H. Ang Jr.
+
+Submitted to ICRA 2023
+
+[Demo Video](https://www.youtube.com/watch?v=wsDUP60PC1E)
 
 Please clone this GitHub repo before proceeding with the installation.
 
