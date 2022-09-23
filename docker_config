@@ -1,0 +1,8 @@
+#!/bin/bash
+
+apt-get update
+apt-get install ffmpeg libsm6 libxext6  -y
+apt-get install vim
+pip install -r requirements.txt
+
+echo "Docker container is ready for use!"
