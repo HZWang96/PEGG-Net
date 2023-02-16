@@ -91,7 +91,7 @@ class PixelShuffle(nn.Module):
         return F.pixel_shuffle(x, self.upscale_factor)
 
 
-class GGCNN4(nn.Module):
+class PEGG_NET(nn.Module):
     def __init__(self, input_channels=1):
         super().__init__()
         
