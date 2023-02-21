@@ -158,3 +158,33 @@ A basic example would be:
 ```bash
 python eval.py --network <path to trained network> --dataset jacquard --dataset-path data/jacquard --jacquard-output --iou-eval
 ```
+## Run on Kinova Movo Robot
+Connect network of the inference PC to Movo2 PC and set Movo2 PC as ROS Master.
+
+Bring up RGB-D aligned realsense camera ROS node:
+```
+roslaunch realsense2_camera rs_aligned_depth.launch
+```
+
+Or bring up realsense camera ROS node for depth-only prediction:
+```
+roslaunch realsense2_camera rs_camera.launch
+```
+
+To publish tf info of right end-effector in right_base_link frame and calibrated camera extrinsics:
+```
+movo_tf_publisher/right_base_link.py
+movo_tf_publisher/camera_calibration.py
+```
+To implement prediction with RGB-D input and send results to the control system:
+```
+python pegg_rgbd_prediction.py
+```
+Or to implement prediction with depth-only input and send results to the control system:
+```
+python pegg_d_prediction.py
+```
+To start control system:
+```
+python pegg_movo_control.py
+```
