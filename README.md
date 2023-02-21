@@ -48,7 +48,7 @@ The code was tested on Ubuntu 18.04, with Python 3.6 and PyTorch 1.7.0 (CUDA 11
 3. Run the following command to start the docker container
     
     ```bash
-    nvidia-docker run --gpus all --ipc host -it -v <gg-cnn++/local/directory>:<workspace/in/docker/container> pytorch/pytorch:1.7.0-cuda11.0-cudnn8-devel bash
+    nvidia-docker run --gpus all --ipc host -it -v <path/to/local/directory>:<workspace/in/docker/container> pytorch/pytorch:1.7.0-cuda11.0-cudnn8-devel bash
     ```
     
 4. Configure the docker container by running the following commands:
@@ -158,8 +158,8 @@ A basic example would be:
 ```bash
 python eval.py --network <path to trained network> --dataset jacquard --dataset-path data/jacquard --jacquard-output --iou-eval
 ```
-## Run on Kinova Movo Robot
-Connect network of the inference PC to Movo2 PC and set Movo2 PC as ROS Master.
+## Running the PEGG-Net Grasping System on the Kinova Movo Robot
+Connect network of the inference PC to the Movo2 PC and set the Movo2 PC as ROS Master.
 
 Bring up RGB-D aligned realsense camera ROS node:
 ```
