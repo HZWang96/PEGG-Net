@@ -5,7 +5,7 @@ This repository contains the official implementation of PEGG-Net from the paper:
 
 Haozhe Wang, Zhiyang Liu, Lei Zhou, Huan Yin and Marcelo H. Ang Jr.
 
-[Demo Video](https://www.youtube.com/watch?v=wsDUP60PC1E)
+[[Paper](https://arxiv.org/pdf/2203.16301.pdf)][[Demo Video](https://www.youtube.com/watch?v=wsDUP60PC1E)]
 
 Please clone this GitHub repo before proceeding with the installation.
 
