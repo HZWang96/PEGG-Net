@@ -188,7 +188,7 @@ To start control system:
 ```
 python pegg_movo_control.py
 ```
-
+## Citation
 If you find our work useful for your research, please consider citing the following BibTeX entry:
 ```
 @misc{wang2023peggnet,
