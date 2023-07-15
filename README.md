@@ -188,3 +188,15 @@ To start control system:
 ```
 python pegg_movo_control.py
 ```
+
+If you find our work useful for your research, please consider citing the following BibTeX entry:
+```
+@misc{wang2023peggnet,
+      title={PEGG-Net: Pixel-Wise Efficient Grasp Generation in Complex Scenes}, 
+      author={Haozhe Wang and Zhiyang Liu and Lei Zhou and Huan Yin and Marcelo H Ang Jr},
+      year={2023},
+      eprint={2203.16301},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
