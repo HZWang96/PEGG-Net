@@ -4,6 +4,7 @@ This repository contains the official implementation of PEGG-Net from the paper:
 **PEGG-Net: Pixel-Wise Efficient Grasp Generation in Complex Scenes**
 
 Haozhe Wang, Zhiyang Liu, Lei Zhou, Huan Yin and Marcelo H. Ang Jr.
+2024 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE Conference on Robotics, Automation and Mechatronics (RAM)
 
 [[Paper](https://arxiv.org/pdf/2203.16301.pdf)][[Demo Video](https://www.youtube.com/watch?v=wsDUP60PC1E)]
 
