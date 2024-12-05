@@ -193,12 +193,14 @@ python pegg_movo_control.py
 ## Citation
 If you find our work useful for your research, please consider citing the following BibTeX entry:
 ```
-@misc{wang2023peggnet,
-      title={PEGG-Net: Pixel-Wise Efficient Grasp Generation in Complex Scenes}, 
-      author={Haozhe Wang and Zhiyang Liu and Lei Zhou and Huan Yin and Marcelo H Ang Jr au2},
-      year={2023},
-      eprint={2203.16301},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@INPROCEEDINGS{10672873,
+  author={Wang, Haozhe and Liu, Zhiyang and Zhou, Lei and Yin, Huan and Ang, Marcelo H.},
+  booktitle={2024 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE International Conference on Robotics, Automation and Mechatronics (RAM)}, 
+  title={PEGG-Net: Pixel-Wise Efficient Grasp Generation in Complex Scenes}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={199-206},
+  keywords={Mechatronics;Heuristic algorithms;Estimation;Random access memory;Grasping;Robustness;Visual servoing;Manipulation and Grasping;Visual Perception and Learning},
+  doi={10.1109/CIS-RAM61939.2024.10672873}}
 ```
